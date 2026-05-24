@@ -1,0 +1,16 @@
+format = "bgr_number"
+---
+[Colors]
+ThemedCursor=0
+InverseCursor=0
+InverseSelection=1
+ForeColor=$fg.默认$
+BackColor=$bg.默认$
+BackColor2=$bg.默认|l=0.97$
+MarkColor=$bg.选中项目$
+CursorColor=$fg.默认$
+CursorText=$fg.默认$
+ActiveTitleText=$fg.默认$
+ActiveTitle=$bg.TC:路径栏$
+InactiveTitleText=$fg.默认$
+InactiveTitle=$bg.TC:非活动路径栏$

@@ -1,0 +1,231 @@
+[[fg]]
+purposes = ["默认", "黑", "标识符", "当前行行号"]
+oklch = "oklch(0.3 0 0)"
+
+[[fg]]
+purposes = ["灰"]
+oklch = "oklch(0.6 0 0)"
+
+[[fg]]
+purposes = ["浅灰", "行号"]
+oklch = "oklch(0.75 0 0)"
+
+[[fg]]
+purposes = ["红"]
+oklch = "oklch(0.5 0.2 30)"
+
+[[fg]]
+purposes = ["橙", "字面值", "转义符号"]
+oklch = "oklch(0.5 0.14 45)"
+
+[[fg]]
+purposes = ["黄", "宏", "特殊注释"]
+oklch = "oklch(0.5 0.1 90)"
+
+[[fg]]
+purposes = ["橄榄绿", "注释"]
+oklch = "oklch(0.5 0.1 120)"
+
+[[fg]]
+purposes = ["绿", "关键字", "标签"]
+oklch = "oklch(0.5 0.135 150)"
+
+[[fg]]
+purposes = ["青", "字符串"]
+oklch = "oklch(0.5 0.08 210)"
+
+[[fg]]
+purposes = ["蓝", "类型"]
+oklch = "oklch(0.5 0.2 270)"
+
+[[fg]]
+purposes = ["紫", "类型字段", "标签属性", "配置项"]
+oklch = "oklch(0.5 0.2 300)"
+
+[[fg]]
+purposes = ["洋红", "静态类型字段"]
+oklch = "oklch(0.5 0.2 330)"
+
+[[fg]]
+purposes = ["链接"]
+oklch = "oklch(0.5 0.16 255)"
+
+[[bg]]
+purposes = ["默认", "TC:非活动路径栏"]
+oklch = "oklch(0.95 0.01 120)"
+
+[[bg]]
+purposes = ["预览视图"]
+oklch = "oklch(0.95 0.01 150)"
+
+[[bg]]
+purposes = ["光标行", "悬停项目"]
+oklch = "oklch(0.92 0.05 120)"
+
+[[bg]]
+purposes = ["折叠行"]
+oklch = "oklch(0.9 0.01 150)"
+
+[[bg]]
+purposes = ["光标下的标识符_读"]
+oklch = "oklch(0.9 0.025 270)"
+
+[[bg]]
+purposes = ["光标下的标识符_写"]
+oklch = "oklch(0.9 0.025 330)"
+
+[[bg]]
+purposes = ["JB:文档内联代码"]
+oklch = "oklch(0.98 0.005 120)"
+
+[[bg]]
+purposes = ["JB:注入代码片段"]
+oklch = "oklch(0.95 0.025 150)"
+
+[[bg]]
+purposes = ["成对括号"]
+oklch = "oklch(0.85 0.05 150)"
+
+[[bg]]
+purposes = ["选中项目", "TC:路径栏"]
+oklch = "oklch(0.9 0.1 135)"
+
+[[bg]]
+purposes = ["标题栏", "状态栏", "非活动选中项目", "普通徽章"]
+oklch = "oklch(0.9 0.025 135)"
+
+[[bg]]
+purposes = ["搜索结果"]
+oklch = "oklch(0.9 0.1 150)"
+
+[[bg]]
+purposes = ["错误"]
+oklch = "oklch(0.92 0.04 30)"
+
+[[bg]]
+purposes = ["警告"]
+oklch = "oklch(0.94 0.075 90)"
+
+[[bg]]
+purposes = ["TODO"]
+oklch = "oklch(0.94 0.125 105)"
+
+[[bg]]
+purposes = ["JB:冲突"]
+oklch = "oklch(0.9 0.05 45)"
+
+[[bg]]
+purposes = ["新增"]
+oklch = "oklch(0.9 0.05 135)"
+
+[[bg]]
+purposes = ["删除"]
+oklch = "oklch(0.9 0.01 135)"
+
+[[bg]]
+purposes = ["冲突_己方"]
+oklch = "oklch(0.9 0.05 180)"
+
+[[bg]]
+purposes = ["冲突_对方"]
+oklch = "oklch(0.9 0.05 240)"
+
+[[bg]]
+purposes = ["变更"]
+oklch = "oklch(0.9 0.04 255)"
+
+[[bg]]
+purposes = ["UI输入控件"]
+oklch = "oklch(0.98 0 0)"
+
+[[bg]]
+purposes = ["UI层级0"]
+oklch = "oklch(0.96 0.005 120)"
+
+[[bg]]
+purposes = ["UI层级1"]
+oklch = "oklch(0.94 0.005 120)"
+
+[[bg]]
+purposes = ["UI层级2"]
+oklch = "oklch(0.92 0.005 120)"
+
+[[bg]]
+purposes = ["光标", "默认按钮", "默认徽章"]
+oklch = "oklch(0.5 0.135 150)"
+
+[[bg]]
+purposes = ["JB:VCS注释1"]
+oklch = "oklch(0.82 0.11 150)"
+
+[[bg]]
+purposes = ["JB:VCS注释2"]
+oklch = "oklch(0.85 0.095 150)"
+
+[[bg]]
+purposes = ["JB:VCS注释3"]
+oklch = "oklch(0.88 0.08 150)"
+
+[[bg]]
+purposes = ["JB:VCS注释4"]
+oklch = "oklch(0.91 0.065 150)"
+
+[[bg]]
+purposes = ["JB:VCS注释5"]
+oklch = "oklch(0.94 0.05 150)"
+
+[[marker]]
+purposes = ["删除", "错误"]
+oklch = "oklch(0.65 0.175 30)"
+
+[[marker]]
+purposes = ["JB:冲突"]
+oklch = "oklch(0.65 0.175 45)"
+
+[[marker]]
+purposes = ["警告"]
+oklch = "oklch(0.65 0.13 90)"
+
+[[marker]]
+purposes = ["JB:空白字符变更"]
+oklch = "oklch(0.8 0.15 90)"
+
+[[marker]]
+purposes = ["新增"]
+oklch = "oklch(0.65 0.175 135)"
+
+[[marker]]
+purposes = ["搜索结果"]
+oklch = "oklch(0.65 0.175 150)"
+
+[[marker]]
+purposes = ["成对括号"]
+oklch = "oklch(0.65 0.05 150)"
+
+[[marker]]
+purposes = ["变更"]
+oklch = "oklch(0.65 0.175 270)"
+
+[[marker]]
+purposes = ["光标下的标识符_读"]
+oklch = "oklch(0.65 0.175 300)"
+
+[[marker]]
+purposes = ["光标下的标识符_写"]
+oklch = "oklch(0.65 0.175 345)"
+
+[[marker]]
+purposes = ["提示", "JB:TODO", "JB:删除"]
+oklch = "oklch(0.65 0 0)"
+
+[[marker]]
+purposes = ["JB:弱警告"]
+oklch = "oklch(0.8 0 0)"
+
+[[other]]
+purposes = ["浅灰色线条"]
+oklch = "oklch(0.85 0 0)"
+
+[[other]]
+purposes = ["绿色线条"]
+oklch = "oklch(0.7 0.1 150)"

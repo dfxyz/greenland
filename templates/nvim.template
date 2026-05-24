@@ -1,0 +1,212 @@
+format = "hex"
+---
+vim.o.bg = "light"
+vim.cmd.hi("clear")
+vim.g.colors_name = "greenland"
+
+local hi = function(name, options)
+    options.force = true
+    vim.api.nvim_set_hl(0, name, options)
+end
+
+--------------------------------------------------------------------------------
+
+vim.g.terminal_color_0 = '$fg.黑$'
+vim.g.terminal_color_1 = '$fg.红$'
+vim.g.terminal_color_2 = '$fg.绿$'
+vim.g.terminal_color_3 = '$fg.黄$'
+vim.g.terminal_color_4 = '$fg.蓝$'
+vim.g.terminal_color_5 = '$fg.紫$'
+vim.g.terminal_color_6 = '$fg.青$'
+vim.g.terminal_color_7 = '$fg.灰$'
+vim.g.terminal_color_8 = vim.g.terminal_color_0
+vim.g.terminal_color_9 = vim.g.terminal_color_1
+vim.g.terminal_color_10 = vim.g.terminal_color_2
+vim.g.terminal_color_11 = vim.g.terminal_color_3
+vim.g.terminal_color_12 = vim.g.terminal_color_4
+vim.g.terminal_color_13 = vim.g.terminal_color_5
+vim.g.terminal_color_14 = vim.g.terminal_color_6
+vim.g.terminal_color_15 = vim.g.terminal_color_7
+
+--------------------------------------------------------------------------------
+
+hi('Normal', { fg = '$fg.默认$', bg = '$bg.默认$' })
+hi('Cursor', { fg = '$bg.默认$', bg = '$bg.光标$' })
+hi('CursorColumn', { bg = '$bg.光标行$' })
+hi('CursorLine', { bg = '$bg.光标行$' })
+hi('ColorColumn', { bg = '$bg.光标行$' })
+hi('LineNr', { fg = '$fg.行号$' })
+hi('FoldColumn', { fg = '$fg.行号$' })
+hi('SignColumn', { fg = '$fg.行号$' })
+hi('CursorLineNr', { fg = '$fg.当前行行号$' })
+hi('CursorLineFold', { fg = '$fg.当前行行号$' })
+hi('CursorLineSign', { fg = '$fg.当前行行号$' })
+hi('Folded', { fg = '$fg.灰$', bg = '$bg.折叠行$' })
+hi('Visual', { bg = '$bg.选中项目$' })
+hi('Search', { fg = '$fg.默认$', bg = '$bg.搜索结果$' })
+hi('CurSearch', { fg = '$fg.默认$', bg = '$bg.搜索结果|l=0.8$' })
+hi('MatchParen', { bg = '$bg.成对括号$' })
+hi('StatusLine', { bg = '$bg.状态栏$' })
+hi('StatusLineNC', { fg = '$fg.灰$', bg = '$bg.UI层级2$' })
+hi('WinSeparator', { fg = '$fg.浅灰$' })
+hi('Pmenu', { bg = '$bg.UI层级2$' })
+hi('PmenuSel', { bg = '$bg.选中项目$' })
+hi('PmenuThumb', { bg = '$bg.光标$' })
+hi('DiffAdd', { bg = '$bg.新增$' })
+hi('DiffDelete', { fg = '$bg.删除|l=0.95$', bg = '$bg.删除$' })
+hi('DiffText', { bg = '$bg.变更$' })
+hi('DiffChange', { bg = '$bg.变更|c=0.25$' })
+hi('Conceal', { fg = '$fg.浅灰$' })
+hi('NonText', { fg = '$fg.浅灰$' })
+hi('Directory', { fg = '$fg.蓝$', bold = true })
+hi('OkMsg', { fg = '$fg.绿$' })
+hi('WarningMsg', { fg = '$fg.黄$' })
+hi('ErrorMsg', { fg = '$fg.红$' })
+hi('ModeMsg', { fg = '$fg.绿$', bold = true })
+hi('MoreMsg', { fg = '$fg.青$' })
+hi('ComplHint', { fg = '$fg.浅灰$' })
+hi('ComplHintMore', { fg = '$fg.青$' })
+hi('Question', { fg = '$fg.绿$' })
+hi('QuickFixLine', { fg = '$fg.青$' })
+hi('SpecialKey', { fg = '$fg.转义符号$' })
+hi('SpellBad', { sp = '$fg.红$', undercurl = true })
+hi('SpellCap', { sp = '$fg.黄$', undercurl = true })
+hi('SpellLocal', { sp = '$fg.绿$', undercurl = true })
+hi('SpellRare', { sp = '$fg.青$', undercurl = true })
+
+--------------------------------------------------------------------------------
+
+hi('Comment', { fg = '$fg.注释$' })
+hi('Constant', { fg = '$fg.标识符$' })
+hi('String', { fg = '$fg.字符串$' })
+hi('Character', { fg = '$fg.字符串$' })
+hi('Number', { fg = '$fg.字面值$' })
+hi('Boolean', { fg = '$fg.字面值$' })
+hi('Identifier', { fg = '$fg.标识符$' })
+hi('Function', { fg = '$fg.标识符$' })
+hi('Statement', { fg = '$fg.关键字$' })
+hi('Operator', { fg = 'NONE' })
+hi('PreProc', { fg = '$fg.宏$' })
+hi('Type', { fg = '$fg.类型$' })
+hi('StorageClass', { fg = '$fg.关键字$' })
+hi('Structure', { fg = '$fg.关键字$' })
+hi('Typedef', { fg = '$fg.关键字$' })
+hi('Special', { fg = '$fg.青$' })
+hi('Tag', { fg = '$fg.链接$' })
+hi('Delimiter', { fg = 'NONE' })
+hi('SpecialComment', { fg = '$fg.特殊注释$' })
+hi('Error', { bg = '$bg.错误$' })
+hi('Todo', { bg = '$bg.TODO$' })
+hi('Added', { fg = '$fg.绿$' })
+hi('Changed', { fg = '$fg.青$' })
+hi('Removed', { fg = '$fg.红$' })
+
+--------------------------------------------------------------------------------
+
+hi('@variable', { fg = '$fg.标识符$' })
+hi('@variable.builtin', { fg = '$fg.关键字$' })
+hi('@variable.parameter', { fg = '$fg.标识符$' })
+hi('@variable.parameter.builtin', { fg = '$fg.标识符$' })
+hi('@variable.member', { fg = '$fg.类型字段$' })
+
+hi('@constant', { fg = '$fg.标识符$' })
+hi('@constant.builtin', { fg = '$fg.字面值$' })
+hi('@constant.macro', { fg = '$fg.宏$' })
+
+hi('@module', { fg = '$fg.标识符$' })
+hi('@module.builtin', { fg = '$fg.标识符$' })
+
+hi('@label', { fg = '$fg.特殊注释$' })
+
+hi('@string', { fg = '$fg.字符串$' })
+hi('@string.documentation', { fg = '$fg.字符串$' })
+hi('@string.regexp', { fg = '$fg.字符串$' })
+hi('@string.escape', { fg = '$fg.转义符号$' })
+hi('@string.special', { fg = '$fg.转义符号$' })
+hi('@string.special.symbol', { fg = '$fg.转义符号$' })
+hi('@string.special.path', { fg = '$fg.链接$' })
+hi('@string.special.url', { fg = '$fg.链接$', sp = '$fg.链接$', underline = true })
+
+hi('@character', { fg = '$fg.字符串$' })
+hi('@character.special', { fg = '$fg.转义符号$' })
+
+hi('@boolean', { fg = '$fg.字面值$' })
+
+hi('@number', { fg = '$fg.字面值$' })
+hi('@number.float', { fg = '$fg.字面值$' })
+
+hi('@type', { fg = '$fg.类型$' })
+hi('@type.builtin', { fg = '$fg.类型$' })
+hi('@type.definition', { fg = '$fg.类型$' })
+
+hi('@attribute', { fg = '$fg.特殊注释$' })
+hi('@attribute.builtin', { fg = '$fg.特殊注释$' })
+
+hi('@property', { fg = '$fg.类型字段$' })
+
+hi('@function', { fg = '$fg.标识符$' })
+hi('@function.builtin', { fg = '$fg.标识符$' })
+hi('@function.call', { fg = '$fg.标识符$' })
+hi('@function.macro', { fg = '$fg.宏$' })
+hi('@function.method', { fg = '$fg.标识符$' })
+hi('@function.method.call', { fg = '$fg.标识符$' })
+
+hi('@constructor', { fg = '$fg.类型$' })
+
+hi('@operator', { fg = '$fg.默认$' })
+
+hi('@keyword', { fg = '$fg.关键字$' })
+hi('@keyword.coroutine', { fg = '$fg.关键字$' })
+hi('@keyword.function', { fg = '$fg.关键字$' })
+hi('@keyword.operator', { fg = '$fg.关键字$' })
+hi('@keyword.import', { fg = '$fg.关键字$' })
+hi('@keyword.type', { fg = '$fg.关键字$' })
+hi('@keyword.modifier', { fg = '$fg.关键字$' })
+hi('@keyword.repeat', { fg = '$fg.关键字$' })
+hi('@keyword.return', { fg = '$fg.关键字$' })
+hi('@keyword.debug', { fg = '$fg.关键字$' })
+hi('@keyword.exception', { fg = '$fg.关键字$' })
+hi('@keyword.conditional', { fg = '$fg.关键字$' })
+hi('@keyword.conditional.ternary', { fg = '$fg.默认$' })
+hi('@keyword.directive', { fg = '$fg.宏$' })
+hi('@keyword.directive.define', { fg = '$fg.宏$' })
+
+hi('@punctuation.delimiter', { fg = '$fg.默认$' })
+hi('@punctuation.bracket', { fg = '$fg.默认$' })
+hi('@punctuation.special', { fg = '$fg.绿$' })
+
+hi('@comment', { fg = '$fg.注释$' })
+hi('@comment.documentation', { fg = '$fg.注释$' })
+hi('@comment.error', { fg = '$fg.默认$', bg = '$bg.TODO$' })
+hi('@comment.warning', { fg = '$fg.默认$', bg = '$bg.TODO$' })
+hi('@comment.todo', { fg = '$fg.默认$', bg = '$bg.TODO$' })
+hi('@comment.note', { fg = '$fg.默认$', bg = '$bg.TODO$' })
+
+hi('@markup.strong', { fg = '$fg.默认$', bold = true })
+hi('@markup.italic', { fg = '$fg.默认$', italic = true })
+hi('@markup.strikethrough', { fg = '$fg.默认$', strikethrough = true })
+hi('@markup.underline', { fg = '$fg.默认$', underline = true })
+hi('@markup.heading', { fg = '$fg.默认$', bold = true })
+hi('@markup.heading.1', { fg = '$fg.默认$', bold = true })
+hi('@markup.heading.2', { fg = '$fg.默认$', bold = true })
+hi('@markup.heading.3', { fg = '$fg.默认$', bold = true })
+hi('@markup.heading.4', { fg = '$fg.默认$', bold = true })
+hi('@markup.heading.5', { fg = '$fg.默认$', bold = true })
+hi('@markup.heading.6', { fg = '$fg.默认$', bold = true })
+hi('@markup.link', { fg = '$fg.默认$', underline = true })
+hi('@markup.link.label', { fg = '$fg.默认$', underline = true })
+hi('@markup.link.url', { fg = '$fg.链接$', sp = '$fg.链接$', underline = true })
+hi('@markup.raw', { fg = '$fg.字符串$' })
+hi('@markup.raw.block', { fg = '$fg.字符串$' })
+hi('@markup.list', { fg = '$fg.绿$' })
+hi('@markup.list.checked', { fg = '$fg.绿$' })
+hi('@markup.list.unchecked', { fg = '$fg.绿$' })
+
+hi('@diff.plus', { fg = '$fg.绿$' })
+hi('@diff.minus', { fg = '$fg.红$' })
+hi('@diff.delta', { fg = '$fg.蓝$' })
+
+hi('@tag', { fg = '$fg.标签$' })
+hi('@tag.builtin', { fg = '$fg.标签$' })
+hi('@tag.attribute', { fg = '$fg.标签属性$' })
+hi('@tag.delimiter', { fg = 'NONE' })

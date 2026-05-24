@@ -1,0 +1,16 @@
+[package]
+name = "greenland"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+arboard = "3"
+clap = {version = "4", features = ["derive"]}
+color = "0.3"
+eframe = { git = "https://github.com/dfxyz/egui", branch = "fork", version = "0.34.2" }
+naive-logger = { git = "https://github.com/dfxyz/naive-logger", version = "0.1.0" }
+quick-xml = "0.40"
+rfd = "0.17"
+serde = { version = "1", features = ["derive"] }
+toml = { version = "1", features = ["preserve_order"] }

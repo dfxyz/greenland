@@ -1,0 +1,36 @@
+format = "hex"
+---
+"profiles":
+{
+  "defaults":
+  {
+    "colorScheme": "Greenland",
+    "intenseTextStyle": "bold",
+  },
+},
+"schemes":
+[
+  {
+    "name": "Greenland",
+    "foreground": "$fg.默认$",
+    "background": "$bg.默认$",
+    "cursorColor": "$bg.光标$",
+    "selectionBackground": "$bg.选中项目$",
+    "black": "$fg.黑$",
+    "brightBlack": "$fg.黑$",
+    "red": "$fg.红$",
+    "brightRed": "$fg.红$",
+    "green": "$fg.绿$",
+    "brightGreen": "$fg.绿$",
+    "yellow": "$fg.黄$",
+    "brightYellow": "$fg.黄$",
+    "blue": "$fg.蓝$",
+    "brightBlue": "$fg.蓝$",
+    "purple": "$fg.紫$",
+    "brightPurple": "$fg.紫$",
+    "cyan": "$fg.青$",
+    "brightCyan": "$fg.青$",
+    "white": "$fg.灰$",
+    "brightWhite": "$fg.灰$",
+  },
+],
