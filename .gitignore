@@ -2,3 +2,6 @@
 /.*
 !.gitignore
 /*.exe
+
+vscode/themes/*.json
+**/*.vsix

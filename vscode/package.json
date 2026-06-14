@@ -1,0 +1,22 @@
+{
+  "name": "greenland",
+  "displayName": "greenland",
+  "description": "A light theme for VSCode.",
+  "publisher": "dfxyz",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Greenland",
+        "uiTheme": "vs",
+        "path": "./themes/greenland.json"
+      }
+    ]
+  }
+}
