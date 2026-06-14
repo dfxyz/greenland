@@ -39,11 +39,11 @@ purposes = ["蓝", "类型"]
 oklch = "oklch(0.5 0.2 270)"
 
 [[fg]]
-purposes = ["紫", "类型字段", "标签属性", "配置项"]
+purposes = ["紫", "属性"]
 oklch = "oklch(0.5 0.2 300)"
 
 [[fg]]
-purposes = ["洋红", "静态类型字段"]
+purposes = ["洋红", "静态属性"]
 oklch = "oklch(0.5 0.2 330)"
 
 [[fg]]
