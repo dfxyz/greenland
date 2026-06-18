@@ -405,6 +405,7 @@ format  =  "hex"
         "keyword.operator.quantifier.regexp",
         "punctuation.definition.string",
         "punctuation.definition.character-class.regexp",
+        "punctuation.definition.raw.markdown",
         "string",
         "string.unquoted.html",
         "support.constant.font-name",
