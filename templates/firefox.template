@@ -1,0 +1,42 @@
+format = "hex"
+---
+{
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "name": "Greenland",
+  "theme": {
+    "colors": {
+      "frame": "$bg.标题栏$",
+      "frame_inactive": "$bg.标题栏|c=0.5$",
+      "tab_line": "$fg.绿$",
+      "tab_text": "$fg.默认$",
+      "tab_background_text": "$fg.默认$",
+      "tab_loading": "$fg.绿$",
+      "toolbar": "$bg.UI层级1$",
+      "toolbar_top_separator": "$other.浅灰色线条$",
+      "bookmark_text": "$fg.默认$",
+      "toolbar_field": "$bg.UI输入控件$",
+      "toolbar_field_text": "$fg.默认$",
+      "toolbar_field_highlight": "$bg.选中项目$",
+      "toolbar_field_highlight_text": "$fg.默认$",
+      "toolbar_field_border": "$other.浅灰色线条$",
+      "toolbar_field_border_focus": "$fg.绿$",
+      "button_background_hover": "#00000010",
+      "button_background_active": "#00000020",
+      "toolbar_bottom_separator": "$other.浅灰色线条$",
+      "popup": "$bg.UI层级0$",
+      "popup_text": "$fg.默认$",
+      "popup_highlight": "$bg.选中项目$",
+      "popup_highlight_text": "$fg.默认$",
+      "popup_border": "$other.浅灰色线条$",
+      "sidebar": "$bg.UI层级0$",
+      "sidebar_text": "$fg.默认$",
+      "sidebar_highlight": "$bg.选中项目$",
+      "sidebar_highlight_text": "$fg.默认$",
+      "sidebar_border": "$other.浅灰色线条$",
+      "ntp_background": "$bg.默认$",
+      "ntp_text": "$fg.默认$",
+      "ntp_card_background": "$bg.UI输入控件$"
+    }
+  }
+}
