@@ -245,7 +245,7 @@ format  =  "hex"
     "statusBarItem.remoteForeground": "#FFFFFF",
     "statusBarItem.remoteBackground": "$bg.默认按钮$",
     "statusBarItem.remoteHoverForeground": "#ffffff",
-    "statusBarItem.remoteHoverBackground": "$bg.默认按钮|l=0.9$",
+    "statusBarItem.remoteHoverBackground": "$bg.默认按钮|l=0.9$"
   },
   "tokenColors": [
     {
@@ -256,16 +256,18 @@ format  =  "hex"
         "meta.embedded",
         "meta.template.expression",
         "storage.modifier.pointer",
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.ts",
         "string.unquoted",
         "punctuation",
         "punctuation.definition.entity.css",
         "punctuation.definition.entity.begin.bracket.square.css",
         "punctuation.definition.entity.end.bracket.square.css",
-        "punctuation.definition.tag",
+        "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "$fg.默认$",
-      },
+        "foreground": "$fg.默认$"
+      }
     },
     {
       "scope": [
@@ -275,11 +277,11 @@ format  =  "hex"
         "support.constant.color.w3c-standard-color-name.css",
         "support.function",
         "support.variable",
-        "variable",
+        "variable"
       ],
       "settings": {
-        "foreground": "$fg.标识符$",
-      },
+        "foreground": "$fg.标识符$"
+      }
     },
     {
       "scope": [
@@ -300,11 +302,11 @@ format  =  "hex"
         "variable.language.self",
         "variable.language.special.self",
         "variable.language.this",
-        "variable.language.wildcard.java",
+        "variable.language.wildcard.java"
       ],
       "settings": {
-        "foreground": "$fg.关键字$",
-      },
+        "foreground": "$fg.关键字$"
+      }
     },
     {
       "scope": [
@@ -313,11 +315,11 @@ format  =  "hex"
         "entity.name.type.instance.jsdoc",
         "storage.type.built-in",
         "support.type",
-        "support.class",
+        "support.class"
       ],
       "settings": {
-        "foreground": "$fg.类型$",
-      },
+        "foreground": "$fg.类型$"
+      }
     },
     {
       "scope": [
@@ -328,37 +330,37 @@ format  =  "hex"
         "support.type.property-name punctuation.support.type.property-name",
         "support.type.vendored.property-name",
         "support.variable.property",
-        "variable.object.property",
+        "variable.object.property"
       ],
       "settings": {
-        "foreground": "$fg.属性$",
-      },
+        "foreground": "$fg.属性$"
+      }
     },
     {
       "scope": [
-        "variable.other.enummember",
+        "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "$fg.静态属性$",
-      },
+        "foreground": "$fg.静态属性$"
+      }
     },
     {
       "scope": [
         "entity.name.tag",
-        "entity.name.selector",
+        "entity.name.selector"
       ],
       "settings": {
-        "foreground": "$fg.标签$",
-      },
+        "foreground": "$fg.标签$"
+      }
     },
     {
       "scope": [
         "comment",
-        "punctuation.definition.comment",
+        "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "$fg.注释$",
-      },
+        "foreground": "$fg.注释$"
+      }
     },
     {
       "scope": [
@@ -377,21 +379,21 @@ format  =  "hex"
         "storage.type.class.jsdoc",
         "string.unquoted.cdata.xml punctuation.definition.string",
         "variable.other.alias.yaml",
-        "variable.other.anchor.yaml",
+        "variable.other.anchor.yaml"
       ],
       "settings": {
-        "foreground": "$fg.特殊注释$",
-      },
+        "foreground": "$fg.特殊注释$"
+      }
     },
     {
       "scope": [
         "entity.name.function.macro",
         "entity.name.function.preprocessor",
-        "meta.preprocessor",
+        "meta.preprocessor"
       ],
       "settings": {
-        "foreground": "$fg.宏$",
-      },
+        "foreground": "$fg.宏$"
+      }
     },
     {
       "scope": [
@@ -411,11 +413,11 @@ format  =  "hex"
         "support.constant.font-name",
         "support.constant.media",
         "support.constant.media-type",
-        "support.constant.property-value",
+        "support.constant.property-value"
       ],
       "settings": {
-        "foreground": "$fg.字符串$",
-      },
+        "foreground": "$fg.字符串$"
+      }
     },
     {
       "scope": [
@@ -428,11 +430,11 @@ format  =  "hex"
         "keyword.operator.minus.exponent",
         "meta.preprocessor.numeric",
         "punctuation.definition.constant",
-        "punctuation.definition.entity",
+        "punctuation.definition.entity"
       ],
       "settings": {
-        "foreground": "$fg.字面值$",
-      },
+        "foreground": "$fg.字面值$"
+      }
     },
     {
       "scope": [
@@ -440,36 +442,36 @@ format  =  "hex"
         "constant.character.escape",
         "constant.character.format.placeholder",
         "punctuation.definition.template-expression",
-        "punctuation.section.embedded",
+        "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "$fg.转义符号$",
-      },
+        "foreground": "$fg.转义符号$"
+      }
     },
     {
       "scope": [
         "markup.underline.link",
         "string.other.link",
-        "variable.parameter.url",
+        "variable.parameter.url"
       ],
       "settings": {
-        "foreground": "$fg.链接$",
-      },
+        "foreground": "$fg.链接$"
+      }
     },
     {
       "scope": [
-        "heading markup.underline.link",
+        "heading markup.underline.link"
       ],
       "settings": {
         "foreground": "$fg.链接$",
-        "fontStyle": "bold",
-      },
+        "fontStyle": "bold"
+      }
     },
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "$fg.红$",
-      },
+        "foreground": "$fg.红$"
+      }
     },
     {
       "scope": "emphasis",
@@ -492,13 +494,13 @@ format  =  "hex"
     {
       "scope": "markup.bold",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "bold"
       }
     },
     {
       "scope": "markup.heading",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "bold"
       }
     },
     {
@@ -516,19 +518,19 @@ format  =  "hex"
     {
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "$fg.绿$",
+        "foreground": "$fg.绿$"
       }
     },
     {
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "$fg.红$",
+        "foreground": "$fg.红$"
       }
     },
     {
       "scope": "markup.changed",
       "settings": {
-        "foreground": "$fg.蓝$",
+        "foreground": "$fg.蓝$"
       }
     },
     {
@@ -543,47 +545,41 @@ format  =  "hex"
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.quote.begin.markdown",
         "punctuation.definition.table.markdown",
-        "punctuation.separator.table.markdown",
+        "punctuation.separator.table.markdown"
       ],
       "settings": {
         "foreground": "$fg.绿$",
-        "fontStyle": "",
-      },
+        "fontStyle": ""
+      }
     },
     {
       "scope": "log.error",
       "settings": {
         "foreground": "$fg.红$",
-        "fontStyle": "",
-      },
+        "fontStyle": ""
+      }
     },
     {
-      "scope": [
-        "log.warning",
-      ],
+      "scope": "log.warning",
       "settings": {
         "foreground": "$fg.黄$",
-        "fontStyle": "",
-      },
+        "fontStyle": ""
+      }
     },
     {
-      "scope": [
-        "log.info",
-      ],
+      "scope": "log.info",
       "settings": {
         "foreground": "$fg.绿$",
-        "fontStyle": "",
-      },
+        "fontStyle": ""
+      }
     },
     {
-      "scope": [
-        "log.debug",
-      ],
+      "scope": "log.debug",
       "settings": {
         "foreground": "$fg.青$",
-        "fontStyle": "",
-      },
-    },
+        "fontStyle": ""
+      }
+    }
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -621,7 +617,7 @@ format  =  "hex"
     "typeParameter": "$fg.类型$",
     "variable": "$fg.标识符$",
     "*.deprecated": {
-      "fontStyle": "strikethrough",
-    },
-  },
+      "fontStyle": "strikethrough"
+    }
+  }
 }
